@@ -1,5 +1,5 @@
 # YQ_SafeGCDTimer
-封装定时器对NSTimer利用GCD的封装 like NSTimer tool implemented using GCD.
+模仿NSTimer的实现利用GCD封装定时器
 
 使用时只需将“YQ_TimerManager.h”和“YQ_TimerManager.m”加入工程即可，当然你也可以按自己的需求修改代码、增删接口。
 
