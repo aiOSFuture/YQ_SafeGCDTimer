@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54AFCD04206B6AD100A728B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AFCD03206B6AD100A728B9 /* main.m */; };
+		54AFCD07206B6AD100A728B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AFCD06206B6AD100A728B9 /* AppDelegate.m */; };
+		54AFCD0A206B6AD100A728B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AFCD09206B6AD100A728B9 /* ViewController.m */; };
+		54AFCD0D206B6AD100A728B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AFCD0B206B6AD100A728B9 /* Main.storyboard */; };
+		54AFCD0F206B6AD100A728B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AFCD0E206B6AD100A728B9 /* Assets.xcassets */; };
+		54AFCD12206B6AD100A728B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AFCD10206B6AD100A728B9 /* LaunchScreen.storyboard */; };
+		54AFCD1D206B6AD100A728B9 /* YQ_SafeTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AFCD1C206B6AD100A728B9 /* YQ_SafeTimerTests.m */; };
+		54AFCD28206B6AD100A728B9 /* YQ_SafeTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AFCD27206B6AD100A728B9 /* YQ_SafeTimerUITests.m */; };
+		54AFCD38206B6B2100A728B9 /* YQ_TimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AFCD37206B6B2100A728B9 /* YQ_TimerManager.m */; };
+		54AFCD3B206B6E6D00A728B9 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AFCD3A206B6E6D00A728B9 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54AFCD19206B6AD100A728B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54AFCCF7206B6AD100A728B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54AFCCFE206B6AD100A728B9;
+			remoteInfo = YQ_SafeTimer;
+		};
+		54AFCD24206B6AD100A728B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54AFCCF7206B6AD100A728B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54AFCCFE206B6AD100A728B9;
+			remoteInfo = YQ_SafeTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54AFCCFF206B6AD100A728B9 /* YQ_SafeTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQ_SafeTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AFCD03206B6AD100A728B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54AFCD05206B6AD100A728B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54AFCD06206B6AD100A728B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54AFCD08206B6AD100A728B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54AFCD09206B6AD100A728B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54AFCD0C206B6AD100A728B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54AFCD0E206B6AD100A728B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54AFCD11206B6AD100A728B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54AFCD13206B6AD100A728B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AFCD18206B6AD100A728B9 /* YQ_SafeTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQ_SafeTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AFCD1C206B6AD100A728B9 /* YQ_SafeTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQ_SafeTimerTests.m; sourceTree = "<group>"; };
+		54AFCD1E206B6AD100A728B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AFCD23206B6AD100A728B9 /* YQ_SafeTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQ_SafeTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54AFCD27206B6AD100A728B9 /* YQ_SafeTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQ_SafeTimerUITests.m; sourceTree = "<group>"; };
+		54AFCD29206B6AD100A728B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AFCD36206B6B2100A728B9 /* YQ_TimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQ_TimerManager.h; sourceTree = "<group>"; };
+		54AFCD37206B6B2100A728B9 /* YQ_TimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQ_TimerManager.m; sourceTree = "<group>"; };
+		54AFCD39206B6E6D00A728B9 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		54AFCD3A206B6E6D00A728B9 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54AFCCFC206B6AD100A728B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AFCD15206B6AD100A728B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AFCD20206B6AD100A728B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54AFCCF6206B6AD100A728B9 = {
+			isa = PBXGroup;
+			children = (
+				54AFCD01206B6AD100A728B9 /* YQ_SafeTimer */,
+				54AFCD1B206B6AD100A728B9 /* YQ_SafeTimerTests */,
+				54AFCD26206B6AD100A728B9 /* YQ_SafeTimerUITests */,
+				54AFCD00206B6AD100A728B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54AFCD00206B6AD100A728B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54AFCCFF206B6AD100A728B9 /* YQ_SafeTimer.app */,
+				54AFCD18206B6AD100A728B9 /* YQ_SafeTimerTests.xctest */,
+				54AFCD23206B6AD100A728B9 /* YQ_SafeTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54AFCD01206B6AD100A728B9 /* YQ_SafeTimer */ = {
+			isa = PBXGroup;
+			children = (
+				54AFCD35206B6B0600A728B9 /* YQ_Timer */,
+				54AFCD05206B6AD100A728B9 /* AppDelegate.h */,
+				54AFCD06206B6AD100A728B9 /* AppDelegate.m */,
+				54AFCD08206B6AD100A728B9 /* ViewController.h */,
+				54AFCD09206B6AD100A728B9 /* ViewController.m */,
+				54AFCD39206B6E6D00A728B9 /* TestViewController.h */,
+				54AFCD3A206B6E6D00A728B9 /* TestViewController.m */,
+				54AFCD0B206B6AD100A728B9 /* Main.storyboard */,
+				54AFCD0E206B6AD100A728B9 /* Assets.xcassets */,
+				54AFCD10206B6AD100A728B9 /* LaunchScreen.storyboard */,
+				54AFCD13206B6AD100A728B9 /* Info.plist */,
+				54AFCD02206B6AD100A728B9 /* Supporting Files */,
+			);
+			path = YQ_SafeTimer;
+			sourceTree = "<group>";
+		};
+		54AFCD02206B6AD100A728B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54AFCD03206B6AD100A728B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54AFCD1B206B6AD100A728B9 /* YQ_SafeTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				54AFCD1C206B6AD100A728B9 /* YQ_SafeTimerTests.m */,
+				54AFCD1E206B6AD100A728B9 /* Info.plist */,
+			);
+			path = YQ_SafeTimerTests;
+			sourceTree = "<group>";
+		};
+		54AFCD26206B6AD100A728B9 /* YQ_SafeTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54AFCD27206B6AD100A728B9 /* YQ_SafeTimerUITests.m */,
+				54AFCD29206B6AD100A728B9 /* Info.plist */,
+			);
+			path = YQ_SafeTimerUITests;
+			sourceTree = "<group>";
+		};
+		54AFCD35206B6B0600A728B9 /* YQ_Timer */ = {
+			isa = PBXGroup;
+			children = (
+				54AFCD36206B6B2100A728B9 /* YQ_TimerManager.h */,
+				54AFCD37206B6B2100A728B9 /* YQ_TimerManager.m */,
+			);
+			path = YQ_Timer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54AFCCFE206B6AD100A728B9 /* YQ_SafeTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AFCD2C206B6AD100A728B9 /* Build configuration list for PBXNativeTarget "YQ_SafeTimer" */;
+			buildPhases = (
+				54AFCCFB206B6AD100A728B9 /* Sources */,
+				54AFCCFC206B6AD100A728B9 /* Frameworks */,
+				54AFCCFD206B6AD100A728B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQ_SafeTimer;
+			productName = YQ_SafeTimer;
+			productReference = 54AFCCFF206B6AD100A728B9 /* YQ_SafeTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54AFCD17206B6AD100A728B9 /* YQ_SafeTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AFCD2F206B6AD100A728B9 /* Build configuration list for PBXNativeTarget "YQ_SafeTimerTests" */;
+			buildPhases = (
+				54AFCD14206B6AD100A728B9 /* Sources */,
+				54AFCD15206B6AD100A728B9 /* Frameworks */,
+				54AFCD16206B6AD100A728B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54AFCD1A206B6AD100A728B9 /* PBXTargetDependency */,
+			);
+			name = YQ_SafeTimerTests;
+			productName = YQ_SafeTimerTests;
+			productReference = 54AFCD18206B6AD100A728B9 /* YQ_SafeTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54AFCD22206B6AD100A728B9 /* YQ_SafeTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54AFCD32206B6AD100A728B9 /* Build configuration list for PBXNativeTarget "YQ_SafeTimerUITests" */;
+			buildPhases = (
+				54AFCD1F206B6AD100A728B9 /* Sources */,
+				54AFCD20206B6AD100A728B9 /* Frameworks */,
+				54AFCD21206B6AD100A728B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54AFCD25206B6AD100A728B9 /* PBXTargetDependency */,
+			);
+			name = YQ_SafeTimerUITests;
+			productName = YQ_SafeTimerUITests;
+			productReference = 54AFCD23206B6AD100A728B9 /* YQ_SafeTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54AFCCF7206B6AD100A728B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = future;
+				TargetAttributes = {
+					54AFCCFE206B6AD100A728B9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CDAALRTDA7;
+						ProvisioningStyle = Automatic;
+					};
+					54AFCD17206B6AD100A728B9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CDAALRTDA7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54AFCCFE206B6AD100A728B9;
+					};
+					54AFCD22206B6AD100A728B9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CDAALRTDA7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 54AFCCFE206B6AD100A728B9;
+					};
+				};
+			};
+			buildConfigurationList = 54AFCCFA206B6AD100A728B9 /* Build configuration list for PBXProject "YQ_SafeTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54AFCCF6206B6AD100A728B9;
+			productRefGroup = 54AFCD00206B6AD100A728B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54AFCCFE206B6AD100A728B9 /* YQ_SafeTimer */,
+				54AFCD17206B6AD100A728B9 /* YQ_SafeTimerTests */,
+				54AFCD22206B6AD100A728B9 /* YQ_SafeTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54AFCCFD206B6AD100A728B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AFCD12206B6AD100A728B9 /* LaunchScreen.storyboard in Resources */,
+				54AFCD0F206B6AD100A728B9 /* Assets.xcassets in Resources */,
+				54AFCD0D206B6AD100A728B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AFCD16206B6AD100A728B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AFCD21206B6AD100A728B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54AFCCFB206B6AD100A728B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AFCD0A206B6AD100A728B9 /* ViewController.m in Sources */,
+				54AFCD38206B6B2100A728B9 /* YQ_TimerManager.m in Sources */,
+				54AFCD07206B6AD100A728B9 /* AppDelegate.m in Sources */,
+				54AFCD04206B6AD100A728B9 /* main.m in Sources */,
+				54AFCD3B206B6E6D00A728B9 /* TestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AFCD14206B6AD100A728B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AFCD1D206B6AD100A728B9 /* YQ_SafeTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54AFCD1F206B6AD100A728B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AFCD28206B6AD100A728B9 /* YQ_SafeTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54AFCD1A206B6AD100A728B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54AFCCFE206B6AD100A728B9 /* YQ_SafeTimer */;
+			targetProxy = 54AFCD19206B6AD100A728B9 /* PBXContainerItemProxy */;
+		};
+		54AFCD25206B6AD100A728B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54AFCCFE206B6AD100A728B9 /* YQ_SafeTimer */;
+			targetProxy = 54AFCD24206B6AD100A728B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54AFCD0B206B6AD100A728B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54AFCD0C206B6AD100A728B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54AFCD10206B6AD100A728B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54AFCD11206B6AD100A728B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54AFCD2A206B6AD100A728B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54AFCD2B206B6AD100A728B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54AFCD2D206B6AD100A728B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CDAALRTDA7;
+				INFOPLIST_FILE = YQ_SafeTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.future.YQ-SafeTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54AFCD2E206B6AD100A728B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CDAALRTDA7;
+				INFOPLIST_FILE = YQ_SafeTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.future.YQ-SafeTimer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54AFCD30206B6AD100A728B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CDAALRTDA7;
+				INFOPLIST_FILE = YQ_SafeTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.future.YQ-SafeTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQ_SafeTimer.app/YQ_SafeTimer";
+			};
+			name = Debug;
+		};
+		54AFCD31206B6AD100A728B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CDAALRTDA7;
+				INFOPLIST_FILE = YQ_SafeTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.future.YQ-SafeTimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQ_SafeTimer.app/YQ_SafeTimer";
+			};
+			name = Release;
+		};
+		54AFCD33206B6AD100A728B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CDAALRTDA7;
+				INFOPLIST_FILE = YQ_SafeTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.future.YQ-SafeTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQ_SafeTimer;
+			};
+			name = Debug;
+		};
+		54AFCD34206B6AD100A728B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CDAALRTDA7;
+				INFOPLIST_FILE = YQ_SafeTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.future.YQ-SafeTimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQ_SafeTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54AFCCFA206B6AD100A728B9 /* Build configuration list for PBXProject "YQ_SafeTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AFCD2A206B6AD100A728B9 /* Debug */,
+				54AFCD2B206B6AD100A728B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54AFCD2C206B6AD100A728B9 /* Build configuration list for PBXNativeTarget "YQ_SafeTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AFCD2D206B6AD100A728B9 /* Debug */,
+				54AFCD2E206B6AD100A728B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54AFCD2F206B6AD100A728B9 /* Build configuration list for PBXNativeTarget "YQ_SafeTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AFCD30206B6AD100A728B9 /* Debug */,
+				54AFCD31206B6AD100A728B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54AFCD32206B6AD100A728B9 /* Build configuration list for PBXNativeTarget "YQ_SafeTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54AFCD33206B6AD100A728B9 /* Debug */,
+				54AFCD34206B6AD100A728B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54AFCCF7206B6AD100A728B9 /* Project object */;
+}
